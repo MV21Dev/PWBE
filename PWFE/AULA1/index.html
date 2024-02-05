@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula com javascript</title>
+</head>
+<body>
+
+    <script>
+        meuNome = "Marcus Nunes"
+
+        console.log(meuNome)
+
+        nomeMae = "Francisca"
+        console.log(nomeMae)
+
+        idade = maioridade(parseInt(window.prompt("Maioridade")))
+        console.log(idade)
+
+        idadeMae = 20
+        console.log(idadeMae)
+
+        console.log(typeof(meuNome))
+
+        console.log(typeof(nomeMae))
+        
+        console.log(typeof(idadeMae))
+
+        function calculoIdade(idade) {
+            return 2024 - idade
+        }
+
+        function maioridade(idade){
+            return idade >= 18 ? "Maior de Idade" : "Menor de Idade"
+        }
+
+    </script>
+</body>
+</html>

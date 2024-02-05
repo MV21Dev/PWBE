@@ -1,0 +1,21 @@
+*{
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.informacoes{
+    border: solid 1px;
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-image: linear-gradient(black, gray);
+    color: aliceblue;
+}
+
+.foto{
+    float: left;
+    max-width: 50%;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
